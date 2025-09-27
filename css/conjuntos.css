@@ -1,0 +1,26 @@
+body{
+    background-color: pink;
+}
+
+h1{
+    text-align: center;
+}
+.hijo{
+    width: 250px;
+    height: 250px;
+    border: 2px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+}
+.padreDos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+p{
+    width: 330px;
+
+}

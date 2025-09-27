@@ -1,0 +1,19 @@
+body{
+    background-color: pink;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.hijo{
+    height: 500ox;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    font-size: 35px;
+}
