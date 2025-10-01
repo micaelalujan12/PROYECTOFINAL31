@@ -12,3 +12,16 @@ h3{
 h4{
     text-align: center;
 }
+
+.papa3{
+    display: flex;
+    margin-right: 40;
+}
+.linea-negra{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+.boca{
+    width: 100px;
+}

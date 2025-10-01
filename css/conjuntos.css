@@ -24,3 +24,13 @@ p{
     width: 330px;
 
 }
+.papa3{
+    display: flex;
+    margin-right: 40;
+}
+.vaca{
+    text-decoration: solid;
+}
+.boca{
+    width: 100px;
+}

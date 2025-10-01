@@ -1,0 +1,1 @@
+Comenzamos creando todas las carpetas y archivos (css, html, js, assets, index, etc). Vinculamos los archivos HTML con los CSS y JS. Le colocamos título a cada página HTML y luego la barra de navegación. Le pusimos estilos CSS, imagenes a las páginas, texto, títulos, subtítulos, emojis, etc.
