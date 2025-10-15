@@ -25,3 +25,11 @@ h4{
 .boca{
     width: 100px;
 }
+.foto{
+    display: block;
+    margin: 0 auto;
+}
+.carrito{
+    width: 35px;
+    height: 35px;
+}
