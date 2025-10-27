@@ -19,7 +19,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">¡Nosotros!</a>
+          <a class="nav-link active" aria-current="page" href="./nosotros.html">¡Nosotros!</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#"></a>
@@ -42,41 +42,80 @@
           <a class="nav-link disabled" aria-disabled="true"></a>
         </li>
       </ul>
-    </div>
+      </div>
+      <div id="cart-container" style="position:relative;">
+  <button id="cart-button" aria-label="Ver carrito" style="background-color: rgb(74, 243, 74);">
+    🛒 <span id="cart-count">0</span>
+  </button>
+
+  <div id="cart-dropdown" style="display:none; position:absolute; right:0; top:36px; background:white; border:1px solid #333; width:350px; padding:10px; z-index:999;">
+    <h4>Carrito</h4>
+    <div id="cart-items"></div>
+    <div id="cart-total" style="margin-top:10px; font-weight:bold;"></div>
+    <button id="checkout-btn" style="background-color: rgb(59, 230, 59);">Comprar</button>
+    <button id="close-cart">Cerrar</button>
   </div>
+</div>
+</div>
+</div>
+  
 </nav>
 
     <h1>INFANTIL</h1>
     <h3 style="text-align: center;">Bombachas, medias, vestidos, etc. para que tu niña se siente feliz y cómoda.</h3>
 
-    <div class="padre">
-        <img src="../assets/Screenshot_20251001-115920~2.png" alt="" class="hijo">
-        <img src="../assets/Screenshot_20251001-115957~2.png" alt="" class="hijo">
-        <img src="../assets/Screenshot_20251001-120103~2.png" alt="" class="hijo">
-        <img src="../assets/Screenshot_20251001-120149~2.png" alt="" class="hijo">
-    </div>
     <div class="padreDos">
-        <p class="hijoDos" style="font-family: cursive;">
-            Bombacha "ROSE"<br>
-            VALOR: 1500 <br>
-        </p>
-        <p class="hijoDos" style="font-family: cursive;">
-            Conjunto "TralaleroTralalá"<br>
-            VALOR: $5000 <br>
-        </p>
-        <p class="hijoDos" style="font-family: cursive;">
-            Vestido "Mujercita"<br>
-            VALOR: $10000<br>
-            Colores: lila<br>
-        </p>
-        <p class="hijoDos" style="font-family: cursive;">
-            Medias "Pixel"<br>
-            VALOR: $3000 el pack<br>
-        </p>
+
+      <div>
+      <img src="../assets/Screenshot_20251001-115920~2.png" alt="" class="hijo">
+        <p>Bombacha "ROSE"</p>
+        <p>VALOR: 1500</p>
+      <button class="add-to-cart"
+          data-id="prod1" 
+          data-name="Bombacha ROSE" 
+          data-price="1500" style="background-color: rgb(59, 230, 59);">
+          Agregar al carrito
+      </button>
+      </div>
+      <div>
+        <img src="../assets/Screenshot_20251001-115957~2.png" alt="" class="hijo">
+        <p>Conjunto "TralaleroTralalá"</p>
+        <p>VALOR: $5000 </p>
+        <button class="add-to-cart"
+          data-id="prod2" 
+          data-name="Conjunto TralaleroTralalá" 
+          data-price="5000" style="background-color: rgb(59, 230, 59);">
+          Agregar al carrito
+      </button>
+      </div>
+        <div>
+          <img src="../assets/Screenshot_20251001-120103~2.png" alt="Vestido" class="hijo">
+          <p>Vestido "Mujercita"</p>
+          <p>VALOR: $10000</p>
+        <button class="add-to-cart"
+          data-id="prod3" 
+          data-name="Vestido Mujercita" 
+          data-price="10000" style="background-color: rgb(59, 230, 59);">
+          Agregar al carrito
+      </button>
+        </div>
+        <div>
+          <img src="../assets/Screenshot_20251001-120149~2.png" alt="medias" class="hijo">
+            <p>Medias "Pixel"</p>
+            <p>VALOR: $3000 el pack</p>
+        <button class="add-to-cart"
+          data-id="prod4" 
+          data-name="Medias Pixel" 
+          data-price="3000" style="background-color: rgb(59, 230, 59);">
+          Agregar al carrito
+      </button>
+        </div>
     </div>
 
+    
+
     <footer>
-        <!--Esto es una dirección (alt, shift y A)  -->
+        
         <address>
             <p class="vaca"style="font-family:inherit">
                 Barrio Jarillero 1, M B C 7 <br>
@@ -118,7 +157,7 @@
         </address>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
+<script src="../js/infantil.js"></script> 
 
 </body>
 
