@@ -28,8 +28,6 @@ p{
     width: 100px;
 }
 
-
-/* 🛒 BOTÓN DEL CARRITO EN LA BARRA */
 .carrito-boton {
   background: none;
   border: none;
@@ -42,9 +40,8 @@ p{
   transform: scale(1.1);
 }
 
-/* 🧺 MODAL DEL CARRITO — INICIALMENTE INVISIBLE */
 .carrito-modal {
-  display: none; /* ❌ No se ve hasta que se abre */
+  display: none; 
   position: fixed;
   top: 0;
   left: 0;
@@ -56,7 +53,6 @@ p{
   z-index: 9999;
 }
 
-/* 🌸 Cuadro del carrito */
 .carrito-contenido {
   background-color: white;
   padding: 20px;
