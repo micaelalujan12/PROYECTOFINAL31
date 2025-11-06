@@ -20,18 +20,21 @@ h1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-p{
-    width: 330px;
-
+    justify-content: center;
 }
 .papa3{
     display: flex;
     margin-right: 40;
 }
-.vaca{
-    text-decoration: solid;
-}
 .boca{
     width: 100px;
+}
+.linea-negra {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+footer{
+    display: flex;
+    justify-content: center;
 }
